@@ -49,7 +49,7 @@ public class Menu {
 			case 1:
 				System.out.printf("Adicionando produto\n\n");
 				System.out.printf("Digite o nome do produto: ");
-				nome = leia.nextLine();
+				nome = leia.next();
 				System.out.printf("Digite o preço do produto: ");
 				preco = leia.nextFloat();
 				
@@ -88,7 +88,7 @@ public class Menu {
 					tipo = buscaProduto.getId();
 					
 					System.out.printf("Digite o nome do produto:" );
-					nome = leia.nextLine();
+					nome = leia.next();
 					System.out.printf("Digite o preço do produto:");
 					preco = leia.nextFloat();
 					
