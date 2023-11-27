@@ -1,12 +1,12 @@
 package pao.model;
 
-public abstract class produto {
+public abstract class Produto {
 	//atributos
 	 private String nome;
 	 private float preco;
 	 private int tipo,id;
 	 //constructor
-	public produto(String nome, String recheio, float preco, int tipo, int id) {
+	public Produto(String nome, float preco, int tipo, int id) {
 		super();
 		this.nome = nome;
 		this.preco = preco;

@@ -1,11 +1,11 @@
 package pao.repository;
 
-import pao.model.produto;
+import pao.model.Produto;
 
 public interface paoRepository {
-	public void criarProduto(produto produto);
+	public void criarProduto(Produto Produto);
 	public void listarProdutos();
 	public void consultarProdutoPorId(int id);
-	public void atualizarProduto(int id);
+	public void atualizarProduto(Produto produto);
 	public void deletarProduto(int id);
 }

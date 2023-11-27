@@ -1,10 +1,10 @@
 package pao.model;
 
-public class doce extends produto {
+public class Doce extends Produto {
 	private String doce = "doce";
 	
-	public doce(String nome, String recheio, float preco, int tipo, int id,String doce) {
-		super(nome, recheio, preco, tipo, id);
+	public Doce(String nome, float preco, int tipo, int id,String doce) {
+		super(nome, preco, tipo, id);
 		this.doce = doce;
 	}
 	//getter e setter
